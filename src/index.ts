@@ -1,6 +1,6 @@
 function greet(name: string): string {
-    return `Hello, ${name}!`;
+    return `Hello, ${name}!`
 }
 
-const user: string = "Chai aur TS";
-console.log(greet(user));
+const user: string = "Chai aur TS"
+console.log(greet(user))

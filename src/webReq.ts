@@ -18,8 +18,9 @@ const fetchTodo = async() => {
             if(err.response){
                 console.error("Error code:", err.response.status)
             }
+        } else {
+            console.error("Error fetching Todo:", err)
         }
-        console.error("Error fetching Todo:", err)
     }
 }
 
